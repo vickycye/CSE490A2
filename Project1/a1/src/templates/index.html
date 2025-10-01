@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entity & Relationship Explorer</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Interactive Entity & Relationship Explorer</h1>
+        </header>
+        
+        <div class="main-content">
+            <!-- Left Panel: Text Input -->
+            <div class="left-panel">
+                <h2>Input Text</h2>
+                <textarea id="inputText" placeholder="Enter your text here...
+Example: Alan Turing is from United Kingdom, and Mr. Turing works on Computer Science."></textarea>
+                <button id="processBtn">Extract Entities & Relationships</button>
+                <button id="enrichBtn" disabled style="margin-top: 10px; background-color: #28a745;">
+                    Enrich with Wikidata
+                </button>
+                <div class="entity-list">
+                    <h3>Detected Entities</h3>
+                    <div id="entityList"></div>
+                </div>
+            </div>
+            
+            <!-- Right Panel: Visualization -->
+            <div class="right-panel">
+                <h2>Relationship Graph</h2>
+                <div id="visualization">
+                    <svg id="graphSvg"></svg>
+                </div>
+                
+                <div class="relationships-list">
+                    <h3>Extracted Relationships</h3>
+                    <div id="relationshipsList"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>

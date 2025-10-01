@@ -1,0 +1,19 @@
+{'subject': 'Casey Stengel', 'subject_qid': 'Q1047261', 'predicate': 'league or competition', 'predicate_pid': 'P118', 'object': 'Major League Baseball', 'object_qid': 'Q1163715'}
+{'subject': 'Casey Stengel', 'subject_qid': 'Q1047261', 'predicate': 'league or competition', 'predicate_pid': 'P118', 'object': 'Major League Baseball', 'object_qid': 'Q1163715'}
+{'subject': 'Casey Stengel', 'subject_qid': 'Q1047261', 'predicate': 'league or competition', 'predicate_pid': 'P118', 'object': 'Major League Baseball', 'object_qid': 'Q1163715'}
+{'subject': 'Casey Stengel', 'subject_qid': 'Q1047261', 'predicate': 'league or competition', 'predicate_pid': 'P118', 'object': 'Major League Baseball', 'object_qid': 'Q1163715'}
+{'subject': 'Charles Dillon', 'subject_qid': 'Q5076877', 'predicate': '', 'predicate_pid': '', 'object': '', 'object_qid': ''}
+{'subject': 'Stengel', 'subject_qid': 'Q2342747', 'predicate': '', 'predicate_pid': '', 'object': '', 'object_qid': ''}
+{'subject': 'American', 'subject_qid': 'Q7976', 'predicate': '', 'predicate_pid': '', 'object': '', 'object_qid': ''}
+{'subject': 'New York Yankees', 'subject_qid': 'Q213417', 'predicate': '', 'predicate_pid': '', 'object': '', 'object_qid': ''}
+{'subject': 'the 1950s', 'subject_qid': 'Q58254953', 'predicate': '', 'predicate_pid': '', 'object': '', 'object_qid': ''}
+{'subject': 'New York Mets', 'subject_qid': 'Q692417', 'predicate': '', 'predicate_pid': '', 'object': '', 'object_qid': ''}
+{'subject': 'the Baseball Hall of Fame', 'subject_qid': 'Q1134380', 'predicate': '', 'predicate_pid': '', 'object': '', 'object_qid': ''}
+{'subject': '1966', 'subject_qid': 'Q2649', 'predicate': '', 'predicate_pid': '', 'object': '', 'object_qid': ''}
+{'subject': 'Kansas City', 'subject_qid': 'Q41819', 'predicate': '', 'predicate_pid': '', 'object': '', 'object_qid': ''}
+{'subject': 'Missouri', 'subject_qid': 'Q1581', 'predicate': '', 'predicate_pid': '', 'object': '', 'object_qid': ''}
+{'subject': '1890', 'subject_qid': 'Q7832', 'predicate': '', 'predicate_pid': '', 'object': '', 'object_qid': ''}
+{'subject': '1910', 'subject_qid': 'Q2075', 'predicate': '', 'predicate_pid': '', 'object': '', 'object_qid': ''}
+{'subject': 'over half a century', 'subject_qid': 'Q48714749', 'predicate': '', 'predicate_pid': '', 'object': '', 'object_qid': ''}
+{'subject': 'almost three', 'subject_qid': 'Q43458493', 'predicate': '', 'predicate_pid': '', 'object': '', 'object_qid': ''}
+{'subject': '1912', 'subject_qid': 'Q2077', 'predicate': '', 'predicate_pid': '', 'object': '', 'object_qid': ''}
