@@ -1,0 +1,2 @@
+Error: Both --input and --output arguments are required
+Usage: ./generate.sh --input <input_file> --output <output_file>
