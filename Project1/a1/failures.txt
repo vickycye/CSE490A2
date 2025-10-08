@@ -1,0 +1,37 @@
+Again, I will provide two perspectives in answering the question of "what did not go well while 
+working with AI coding agents", as I think the Claude's failures.txt response is even more intruiging
+than successes.
+
+What I thought went wrong:
+- Although this is probably common knowledge, general LLMs are notoriously bad at design.
+  I'm gonna be honest, I started the project 1 day before it was due because I was thinking 
+  that it would be easy to vibe code a project. Yes, the coding part became 10000x easier, 
+  but I still have to put the most effort into pushing the interface to have a user-friendly design.
+  I tried using v0.dev, and it was better than GPT/Claude/Cursor, but it still had its flaws.
+  Anyway, this current version still doesn't resemble what I am capable of design-wise, but
+  I'm excited to keep working on this if this project were to resurface again in this class.
+- I also have to admit that I was sometimes lazy with the prompting, like "Fix this error" or 
+  chucking my entire codebase into Cursor and asking it "what's wrong", and it felt like everything
+  was going wrong, but when I sharpened up my prompting the AIs achieved what I wanted it to do. 
+- There were many assumptions that I made when I was prompting LLMs, and one thing that I didn't 
+  consider was design assumptions, where the visualization graph needed to have the nodes spread 
+  out for easier viewing. But, the first version of the interface had all the nodes lined up 
+  horizontally, and once the input got large, I couldn't distinguish between which nodes are which.
+  This reminds me that I need to be more specific in my prompting and don't make any assumptions 
+  next time. 
+
+
+What the LLMs thought went wrong (mostly due to human laziness):
+- Claude itself said that it didn't do that well because it did not provide me with sufficient
+  unit tests for entity extraction, API calls, or API rate limits/failures. I didn't think much 
+  of this in the beginning since I haven't taken 331 yet, but it does seem like a very good thing to do.
+- There are many other opportunities to do optimization, whether it's for processing, or caching for 
+  repeated queries. 
+- In my Claude preferences file, I wrote that I would prefer sources cited for any facts provided, but 
+  in the chat history, not once did Claude include any citations as to where information came from 
+  so there's a chance that I've just been blindly following an LLMs instruction.
+- Its own code that it wrote didn't have enough comments. It stated that "functions have docstrings, 
+which is good, but complex logic is not explained." 
+
+Again, there are many more failures that I can address, but most could probably be solved by 
+the human being more detailed during prompting and providing the LLM with more information. 

@@ -1,0 +1,28 @@
+So there are two things that are quite interesting. I still have the chat history saved from
+when I was prompting Claude so I asked it what went well and what didn't,
+and my own view of what went well/wrong is slightly different from what the LLM thinks. 
+
+Here are a few of my takes:
+- I thought that setting up the project was really easy because creating the front-end and
+  back-end was something LLMs are very used to.
+- Claude and ChatGPT were able to provide me with an outline on what was changed throughout
+  the coding process and Cursor allowed me to do code reviews after every change. I was able
+  to read and edit the code myself even if Cursor's agent was doing most of the work.
+- In the beginning, I didn't want to waste too many credits so I told Cursor, Claude, and ChatGPT 
+  that I didn't want to see any code unless I specifically asked, and they honored my preferences,
+  which is really useful in this case and can be applied to many other cases as well (like walking 
+  through concepts to do homework in another class)
+
+
+Here is what Claude thought:
+- The user (me) provided well-defined project requirements, including directory structure suggestions,
+  the specific technology stack, and clear functional requirements. It also specifically mentioned
+  that I included specific behavior results, which was case-sensitive processing with spaCy en_core_web_sm
+- The user approached the project with structured communication, such as "incremental development
+  approach", which breaks the project into two clear modules: basic entity extraction and vis.
+  as well as wikidata knowledge graph integration.
+- Claude is very happy that I explicitly stated the library and tech stack specifications, such as 
+  using spaCy, Flask, requests, en_core_web_sm, and having clear API endpoints
+
+There are more things that went well but I don't want you guys to suffer from reading too much text so I
+will stop here for now LOL.
