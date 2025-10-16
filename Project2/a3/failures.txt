@@ -1,0 +1,20 @@
+I'll list these issues out so it's more readable. My failures doc this time is a bit different, because I wanted to think of better solutions to these problems on my own, instead of having 
+the AI do it for me. 
+1. Dependency management issues
+    To begin with, the first version used pandas without checking the local environment. I was using Cursor, and I was not in my virtual environment that had all the dependencies.
+    When Cursor found that issue and tried to install pandas, it ran into SSL cert issues on my operating system: macOS, and failed to install.
+    It refactored everything by itself to only use the standard library (csv module).
+    The lesson I learned here was that AI should probably default to built-ints unless there's a strong reason not to, or was specfied to use a dependency, because that saves a ton of setup
+    pain later.
+
+2. Subteam consistency conflicts
+    The problem was that, one subteam had mismatched project preferences. The algorithm detected the conflict and split them up into individuals, thinking the likely cause was probably a 
+    data entry issue from students, not a bug. The lesson learned here is that there probably could've been some smart conflict resolution done instead of just splitting them apart.
+
+3. Fragile NetID parsing
+    The problem here is that the input data had every possible format for names and netIDs, such as "Name, netid", "netid", "Name netid", or "netid@uw.edu". The current fix is a simple string-splitting, 
+    which works most of the time, but might break if there's any other special characters in a name. A good approach could be to use regex or a small parsing function that handles all known formats.
+
+
+There are many more issues, and things that I would fix, but the key takeaway here is that again, AI nailed the coding speed and structure, but missed some of the developer instincts that come 
+with being human. The result workd great for the class use case, but would need to be heavily polished to hit production-grade reliability. 

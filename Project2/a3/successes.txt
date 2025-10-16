@@ -1,0 +1,15 @@
+For this project, using AI was significantly easier than the first project, probably because there was no design aspect to it.
+The AI basically took our specs and was able to spin up a full working solution in minutes. I started with the messy README full of constraints and turned that into a general outline 
+of what the project should have, and how it should work. I also created the repository structure in fear of the AI accidentally deleting my previous files. 
+The good part of using Cursor this time around was it handled edge cases that I hadn't even thought about. I improved my prompting from the previous project with the suggestions that 
+Claude gave to me to become a better prompter, and I see the difference. 
+Cursor also handled the constraint satisfaction logic really well, parsing a big CSV of 87 students and 47 projects, matching mutual subteams, grouping them correctly, and then 
+forming 16 valid teams of 5-6 members. It even prioritized project preferences while keeping subteams together. 
+
+One thing that impressed me was when the initial version using pandas his environment issues, Cursor was able to refactor everything to use just the Python standard libraries. The end result had 
+0 dependencies, worked perfectly in Docker, and ran anywhere with Python3. Cursor also helped catch subtle issues, like inconsistent preference declarations and weird CSV formatting, 
+and still produced clean, testable output files in exactly the required format. 
+
+All in all, what would've easily taken me a few hours was done in about 15 minutes. I'd say we saved around 75-85% of the usual development time, and the code was still clean, readable, and portable. 
+
+My biggest takeaway here was that AI is ridiculously good at turning structured requirements into runctional code, especially for algorithmic or data-processing tasks. 
