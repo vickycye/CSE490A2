@@ -1,0 +1,17 @@
+Looking back on this project, I saw pretty clearly that using LLMs was helpful at times but also caused 
+a lot of problems.
+
+The code still has issues from Assignment 3, like reusing old project logic. It also does not handle 
+subteams larger than six people. The current method uses global optimization, but because it is still 
+basically greedy, it can miss better solutions.
+
+Working with Claude was messy. It did not set up a proper testing file structure, so I had to make it 
+myself. When I asked it to generate test cases, it kept using the same date, 2024-01-01, which made 
+the tests unrealistic and useless for tie breaking.
+
+At first, Claude kept rewriting whole files, which used up all my credits and overloaded the 
+context. After I told it to only give me the parts that needed fixing (since I am still a human 
+and can apply changes myself), I finally saved some credits and things went more smoothly.
+
+Overall, LLMs helped in some parts, but they also created new problems and needed a lot of 
+guidance to stay useful :)

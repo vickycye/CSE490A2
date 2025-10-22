@@ -1,0 +1,13 @@
+Timestamp,Email,Name,NetID,Project Preferences [ProjectA],Project Preferences [ProjectB],Project Preferences [ProjectC],Team Member 1,Team Member 2,Team Member 3,Team Member 4,Team Member 5
+2024-01-01,valid1@uw.edu,Valid Student 1,valid_student1,#1 Choice,#2 Choice,#3 Choice,,,,,,,
+2024-01-01,valid2@uw.edu,Valid Student 2,valid_student2,#1 Choice,#2 Choice,#3 Choice,,,,,,,
+2024-01-01,valid3@uw.edu,Valid Student 3,valid_student3,#1 Choice,#2 Choice,#3 Choice,,,,,,,
+2024-01-01,valid4@uw.edu,Valid Student 4,valid_student4,#1 Choice,#2 Choice,#3 Choice,,,,,,,
+2024-01-01,valid5@uw.edu,Valid Student 5,valid_student5,#1 Choice,#2 Choice,#3 Choice,,,,,,,
+2024-01-01,valid6@uw.edu,Valid Student 6,valid_student6,#1 Choice,#2 Choice,#3 Choice,,,,,,,
+2024-01-01,valid7@uw.edu,Valid Student 7,valid_student7,#1 Choice,#2 Choice,#3 Choice,,,,,,,
+2024-01-01,valid8@uw.edu,Valid Student 8,valid_student8,#1 Choice,#2 Choice,#3 Choice,,,,,,,
+2024-01-01,valid9@uw.edu,Valid Student 9,valid_student9,#1 Choice,#2 Choice,#3 Choice,,,,,,,
+2024-01-01,valid10@uw.edu,Valid Student 10,valid_student10,#1 Choice,#2 Choice,#3 Choice,,,,,,,
+2024-01-01,missing@uw.edu,Missing Student,,#1 Choice,#2 Choice,#3 Choice,,,,,,,
+2024-01-01,whitespace@uw.edu,Whitespace Student,   ,#1 Choice,#2 Choice,#3 Choice,,,,,,,

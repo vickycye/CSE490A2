@@ -1,0 +1,17 @@
+Timestamp,Email,Name,NetID,Project Preferences [ProjectA],Project Preferences [ProjectB],Project Preferences [ProjectC],Project Preferences [ProjectD],Project Preferences [ProjectE],Team Member 1,Team Member 2,Team Member 3,Team Member 4,Team Member 5
+2024-01-01,greedy1_m1@uw.edu,Test Student greedy1_m1,greedy1_m1,#1 Choice,#2 Choice,#3 Choice,#4 Choice,#5 Choice,greedy1_m2,greedy1_m3,greedy1_m4,greedy1_m5,
+2024-01-01,greedy1_m2@uw.edu,Test Student greedy1_m2,greedy1_m2,#1 Choice,#2 Choice,#3 Choice,#4 Choice,#5 Choice,greedy1_m1,greedy1_m3,greedy1_m4,greedy1_m5,
+2024-01-01,greedy1_m3@uw.edu,Test Student greedy1_m3,greedy1_m3,#1 Choice,#2 Choice,#3 Choice,#4 Choice,#5 Choice,greedy1_m1,greedy1_m2,greedy1_m4,greedy1_m5,
+2024-01-01,greedy1_m4@uw.edu,Test Student greedy1_m4,greedy1_m4,#1 Choice,#2 Choice,#3 Choice,#4 Choice,#5 Choice,greedy1_m1,greedy1_m2,greedy1_m3,greedy1_m5,
+2024-01-01,greedy1_m5@uw.edu,Test Student greedy1_m5,greedy1_m5,#1 Choice,#2 Choice,#3 Choice,#4 Choice,#5 Choice,greedy1_m1,greedy1_m2,greedy1_m3,greedy1_m4,
+2024-01-01,greedy2_m1@uw.edu,Test Student greedy2_m1,greedy2_m1,#2 Choice,#1 Choice,#3 Choice,#4 Choice,#5 Choice,greedy2_m2,greedy2_m3,greedy2_m4,greedy2_m5,greedy2_m6
+2024-01-01,greedy2_m2@uw.edu,Test Student greedy2_m2,greedy2_m2,#2 Choice,#1 Choice,#3 Choice,#4 Choice,#5 Choice,greedy2_m1,greedy2_m3,greedy2_m4,greedy2_m5,greedy2_m6
+2024-01-01,greedy2_m3@uw.edu,Test Student greedy2_m3,greedy2_m3,#2 Choice,#1 Choice,#3 Choice,#4 Choice,#5 Choice,greedy2_m1,greedy2_m2,greedy2_m4,greedy2_m5,greedy2_m6
+2024-01-01,greedy2_m4@uw.edu,Test Student greedy2_m4,greedy2_m4,#2 Choice,#1 Choice,#3 Choice,#4 Choice,#5 Choice,greedy2_m1,greedy2_m2,greedy2_m3,greedy2_m5,greedy2_m6
+2024-01-01,greedy2_m5@uw.edu,Test Student greedy2_m5,greedy2_m5,#2 Choice,#1 Choice,#3 Choice,#4 Choice,#5 Choice,greedy2_m1,greedy2_m2,greedy2_m3,greedy2_m4,greedy2_m6
+2024-01-01,greedy2_m6@uw.edu,Test Student greedy2_m6,greedy2_m6,#2 Choice,#1 Choice,#3 Choice,#4 Choice,#5 Choice,greedy2_m1,greedy2_m2,greedy2_m3,greedy2_m4,greedy2_m5
+2024-01-01,greedy3_m1@uw.edu,Test Student greedy3_m1,greedy3_m1,#2 Choice,#3 Choice,#1 Choice,#4 Choice,#5 Choice,greedy3_m2,greedy3_m3,greedy3_m4,greedy3_m5,
+2024-01-01,greedy3_m2@uw.edu,Test Student greedy3_m2,greedy3_m2,#2 Choice,#3 Choice,#1 Choice,#4 Choice,#5 Choice,greedy3_m1,greedy3_m3,greedy3_m4,greedy3_m5,
+2024-01-01,greedy3_m3@uw.edu,Test Student greedy3_m3,greedy3_m3,#2 Choice,#3 Choice,#1 Choice,#4 Choice,#5 Choice,greedy3_m1,greedy3_m2,greedy3_m4,greedy3_m5,
+2024-01-01,greedy3_m4@uw.edu,Test Student greedy3_m4,greedy3_m4,#2 Choice,#3 Choice,#1 Choice,#4 Choice,#5 Choice,greedy3_m1,greedy3_m2,greedy3_m3,greedy3_m5,
+2024-01-01,greedy3_m5@uw.edu,Test Student greedy3_m5,greedy3_m5,#2 Choice,#3 Choice,#1 Choice,#4 Choice,#5 Choice,greedy3_m1,greedy3_m2,greedy3_m3,greedy3_m4,

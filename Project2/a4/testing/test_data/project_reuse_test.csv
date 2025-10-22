@@ -1,0 +1,44 @@
+Timestamp,Email,Name,NetID,Project Preferences [ProjectA],Project Preferences [ProjectB],Project Preferences [ProjectC],Project Preferences [ProjectD],Project Preferences [ProjectE],Project Preferences [ProjectF],Team Member 1,Team Member 2,Team Member 3,Team Member 4,Team Member 5
+2024-01-01,reuse_team1_m1@uw.edu,Test Student reuse_team1_m1,reuse_team1_m1,#1 Choice,#2 Choice,#3 Choice,,,,reuse_team1_m2,reuse_team1_m3,reuse_team1_m4,reuse_team1_m5,
+2024-01-01,reuse_team1_m2@uw.edu,Test Student reuse_team1_m2,reuse_team1_m2,#1 Choice,#2 Choice,#3 Choice,,,,reuse_team1_m1,reuse_team1_m3,reuse_team1_m4,reuse_team1_m5,
+2024-01-01,reuse_team1_m3@uw.edu,Test Student reuse_team1_m3,reuse_team1_m3,#1 Choice,#2 Choice,#3 Choice,,,,reuse_team1_m1,reuse_team1_m2,reuse_team1_m4,reuse_team1_m5,
+2024-01-01,reuse_team1_m4@uw.edu,Test Student reuse_team1_m4,reuse_team1_m4,#1 Choice,#2 Choice,#3 Choice,,,,reuse_team1_m1,reuse_team1_m2,reuse_team1_m3,reuse_team1_m5,
+2024-01-01,reuse_team1_m5@uw.edu,Test Student reuse_team1_m5,reuse_team1_m5,#1 Choice,#2 Choice,#3 Choice,,,,reuse_team1_m1,reuse_team1_m2,reuse_team1_m3,reuse_team1_m4,
+2024-01-01,reuse_team2_m1@uw.edu,Test Student reuse_team2_m1,reuse_team2_m1,#1 Choice,#2 Choice,#3 Choice,,,,reuse_team2_m2,reuse_team2_m3,reuse_team2_m4,reuse_team2_m5,reuse_team2_m6
+2024-01-01,reuse_team2_m2@uw.edu,Test Student reuse_team2_m2,reuse_team2_m2,#1 Choice,#2 Choice,#3 Choice,,,,reuse_team2_m1,reuse_team2_m3,reuse_team2_m4,reuse_team2_m5,reuse_team2_m6
+2024-01-01,reuse_team2_m3@uw.edu,Test Student reuse_team2_m3,reuse_team2_m3,#1 Choice,#2 Choice,#3 Choice,,,,reuse_team2_m1,reuse_team2_m2,reuse_team2_m4,reuse_team2_m5,reuse_team2_m6
+2024-01-01,reuse_team2_m4@uw.edu,Test Student reuse_team2_m4,reuse_team2_m4,#1 Choice,#2 Choice,#3 Choice,,,,reuse_team2_m1,reuse_team2_m2,reuse_team2_m3,reuse_team2_m5,reuse_team2_m6
+2024-01-01,reuse_team2_m5@uw.edu,Test Student reuse_team2_m5,reuse_team2_m5,#1 Choice,#2 Choice,#3 Choice,,,,reuse_team2_m1,reuse_team2_m2,reuse_team2_m3,reuse_team2_m4,reuse_team2_m6
+2024-01-01,reuse_team2_m6@uw.edu,Test Student reuse_team2_m6,reuse_team2_m6,#1 Choice,#2 Choice,#3 Choice,,,,reuse_team2_m1,reuse_team2_m2,reuse_team2_m3,reuse_team2_m4,reuse_team2_m5
+2024-01-01,reuse_team3_m1@uw.edu,Test Student reuse_team3_m1,reuse_team3_m1,#2 Choice,#1 Choice,#3 Choice,,,,reuse_team3_m2,reuse_team3_m3,reuse_team3_m4,reuse_team3_m5,
+2024-01-01,reuse_team3_m2@uw.edu,Test Student reuse_team3_m2,reuse_team3_m2,#2 Choice,#1 Choice,#3 Choice,,,,reuse_team3_m1,reuse_team3_m3,reuse_team3_m4,reuse_team3_m5,
+2024-01-01,reuse_team3_m3@uw.edu,Test Student reuse_team3_m3,reuse_team3_m3,#2 Choice,#1 Choice,#3 Choice,,,,reuse_team3_m1,reuse_team3_m2,reuse_team3_m4,reuse_team3_m5,
+2024-01-01,reuse_team3_m4@uw.edu,Test Student reuse_team3_m4,reuse_team3_m4,#2 Choice,#1 Choice,#3 Choice,,,,reuse_team3_m1,reuse_team3_m2,reuse_team3_m3,reuse_team3_m5,
+2024-01-01,reuse_team3_m5@uw.edu,Test Student reuse_team3_m5,reuse_team3_m5,#2 Choice,#1 Choice,#3 Choice,,,,reuse_team3_m1,reuse_team3_m2,reuse_team3_m3,reuse_team3_m4,
+2024-01-01,reuse_team4_m1@uw.edu,Test Student reuse_team4_m1,reuse_team4_m1,#2 Choice,#1 Choice,#3 Choice,,,,reuse_team4_m2,reuse_team4_m3,reuse_team4_m4,reuse_team4_m5,reuse_team4_m6
+2024-01-01,reuse_team4_m2@uw.edu,Test Student reuse_team4_m2,reuse_team4_m2,#2 Choice,#1 Choice,#3 Choice,,,,reuse_team4_m1,reuse_team4_m3,reuse_team4_m4,reuse_team4_m5,reuse_team4_m6
+2024-01-01,reuse_team4_m3@uw.edu,Test Student reuse_team4_m3,reuse_team4_m3,#2 Choice,#1 Choice,#3 Choice,,,,reuse_team4_m1,reuse_team4_m2,reuse_team4_m4,reuse_team4_m5,reuse_team4_m6
+2024-01-01,reuse_team4_m4@uw.edu,Test Student reuse_team4_m4,reuse_team4_m4,#2 Choice,#1 Choice,#3 Choice,,,,reuse_team4_m1,reuse_team4_m2,reuse_team4_m3,reuse_team4_m5,reuse_team4_m6
+2024-01-01,reuse_team4_m5@uw.edu,Test Student reuse_team4_m5,reuse_team4_m5,#2 Choice,#1 Choice,#3 Choice,,,,reuse_team4_m1,reuse_team4_m2,reuse_team4_m3,reuse_team4_m4,reuse_team4_m6
+2024-01-01,reuse_team4_m6@uw.edu,Test Student reuse_team4_m6,reuse_team4_m6,#2 Choice,#1 Choice,#3 Choice,,,,reuse_team4_m1,reuse_team4_m2,reuse_team4_m3,reuse_team4_m4,reuse_team4_m5
+2024-01-01,reuse_team5_m1@uw.edu,Test Student reuse_team5_m1,reuse_team5_m1,#2 Choice,#3 Choice,#1 Choice,,,,reuse_team5_m2,reuse_team5_m3,reuse_team5_m4,reuse_team5_m5,
+2024-01-01,reuse_team5_m2@uw.edu,Test Student reuse_team5_m2,reuse_team5_m2,#2 Choice,#3 Choice,#1 Choice,,,,reuse_team5_m1,reuse_team5_m3,reuse_team5_m4,reuse_team5_m5,
+2024-01-01,reuse_team5_m3@uw.edu,Test Student reuse_team5_m3,reuse_team5_m3,#2 Choice,#3 Choice,#1 Choice,,,,reuse_team5_m1,reuse_team5_m2,reuse_team5_m4,reuse_team5_m5,
+2024-01-01,reuse_team5_m4@uw.edu,Test Student reuse_team5_m4,reuse_team5_m4,#2 Choice,#3 Choice,#1 Choice,,,,reuse_team5_m1,reuse_team5_m2,reuse_team5_m3,reuse_team5_m5,
+2024-01-01,reuse_team5_m5@uw.edu,Test Student reuse_team5_m5,reuse_team5_m5,#2 Choice,#3 Choice,#1 Choice,,,,reuse_team5_m1,reuse_team5_m2,reuse_team5_m3,reuse_team5_m4,
+2024-01-01,reuse_team6_m1@uw.edu,Test Student reuse_team6_m1,reuse_team6_m1,#2 Choice,#3 Choice,#1 Choice,,,,reuse_team6_m2,reuse_team6_m3,reuse_team6_m4,reuse_team6_m5,reuse_team6_m6
+2024-01-01,reuse_team6_m2@uw.edu,Test Student reuse_team6_m2,reuse_team6_m2,#2 Choice,#3 Choice,#1 Choice,,,,reuse_team6_m1,reuse_team6_m3,reuse_team6_m4,reuse_team6_m5,reuse_team6_m6
+2024-01-01,reuse_team6_m3@uw.edu,Test Student reuse_team6_m3,reuse_team6_m3,#2 Choice,#3 Choice,#1 Choice,,,,reuse_team6_m1,reuse_team6_m2,reuse_team6_m4,reuse_team6_m5,reuse_team6_m6
+2024-01-01,reuse_team6_m4@uw.edu,Test Student reuse_team6_m4,reuse_team6_m4,#2 Choice,#3 Choice,#1 Choice,,,,reuse_team6_m1,reuse_team6_m2,reuse_team6_m3,reuse_team6_m5,reuse_team6_m6
+2024-01-01,reuse_team6_m5@uw.edu,Test Student reuse_team6_m5,reuse_team6_m5,#2 Choice,#3 Choice,#1 Choice,,,,reuse_team6_m1,reuse_team6_m2,reuse_team6_m3,reuse_team6_m4,reuse_team6_m6
+2024-01-01,reuse_team6_m6@uw.edu,Test Student reuse_team6_m6,reuse_team6_m6,#2 Choice,#3 Choice,#1 Choice,,,,reuse_team6_m1,reuse_team6_m2,reuse_team6_m3,reuse_team6_m4,reuse_team6_m5
+2024-01-01,restrictive_team_m1@uw.edu,Test Student restrictive_team_m1,restrictive_team_m1,,,,#1 Choice,#2 Choice,,restrictive_team_m2,restrictive_team_m3,restrictive_team_m4,restrictive_team_m5,
+2024-01-01,restrictive_team_m2@uw.edu,Test Student restrictive_team_m2,restrictive_team_m2,,,,#1 Choice,#2 Choice,,restrictive_team_m1,restrictive_team_m3,restrictive_team_m4,restrictive_team_m5,
+2024-01-01,restrictive_team_m3@uw.edu,Test Student restrictive_team_m3,restrictive_team_m3,,,,#1 Choice,#2 Choice,,restrictive_team_m1,restrictive_team_m2,restrictive_team_m4,restrictive_team_m5,
+2024-01-01,restrictive_team_m4@uw.edu,Test Student restrictive_team_m4,restrictive_team_m4,,,,#1 Choice,#2 Choice,,restrictive_team_m1,restrictive_team_m2,restrictive_team_m3,restrictive_team_m5,
+2024-01-01,restrictive_team_m5@uw.edu,Test Student restrictive_team_m5,restrictive_team_m5,,,,#1 Choice,#2 Choice,,restrictive_team_m1,restrictive_team_m2,restrictive_team_m3,restrictive_team_m4,
+2024-01-01,restrictive2_team_m1@uw.edu,Test Student restrictive2_team_m1,restrictive2_team_m1,,,,,#1 Choice,#2 Choice,restrictive2_team_m2,restrictive2_team_m3,restrictive2_team_m4,restrictive2_team_m5,
+2024-01-01,restrictive2_team_m2@uw.edu,Test Student restrictive2_team_m2,restrictive2_team_m2,,,,,#1 Choice,#2 Choice,restrictive2_team_m1,restrictive2_team_m3,restrictive2_team_m4,restrictive2_team_m5,
+2024-01-01,restrictive2_team_m3@uw.edu,Test Student restrictive2_team_m3,restrictive2_team_m3,,,,,#1 Choice,#2 Choice,restrictive2_team_m1,restrictive2_team_m2,restrictive2_team_m4,restrictive2_team_m5,
+2024-01-01,restrictive2_team_m4@uw.edu,Test Student restrictive2_team_m4,restrictive2_team_m4,,,,,#1 Choice,#2 Choice,restrictive2_team_m1,restrictive2_team_m2,restrictive2_team_m3,restrictive2_team_m5,
+2024-01-01,restrictive2_team_m5@uw.edu,Test Student restrictive2_team_m5,restrictive2_team_m5,,,,,#1 Choice,#2 Choice,restrictive2_team_m1,restrictive2_team_m2,restrictive2_team_m3,restrictive2_team_m4,

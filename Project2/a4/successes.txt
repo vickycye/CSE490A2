@@ -1,0 +1,16 @@
+To start the project, I went through my Assignment 3 code and added comments to make sure I 
+fully understood how everything worked, just like the spec suggested. While reviewing, I noticed 
+that the algorithm still handles standard cases well, and it correctly combines individual students 
+into teams.
+
+When writing tests, I kept AI-generated inline comments in all caps and wrote my own in lowercase 
+to keep things clear. I also told the AI not to generate method-level comments, so I wrote those 
+myself, and it actually listened.
+
+I made a test case that was good enough to make the first test fail, and from there Claude helped 
+me fix the code. Test 2 passed without issues, which showed the original logic was pretty solid.
+
+I’ll be honest: writing tests took way longer than I expected. I planned to write more, but I 
+focused on a smaller number so I could document them clearly for easier grading. Near the deadline, 
+I used Cursor to quickly add the remaining tests, and the whole project ended up taking around 
+five hours total. I also went back through the code myself to make sure nothing was obviously wrong.

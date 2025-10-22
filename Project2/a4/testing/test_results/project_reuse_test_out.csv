@@ -1,0 +1,8 @@
+ProjectD,"['restrictive_team_m3', 'restrictive_team_m4', 'restrictive_team_m5', 'restrictive_team_m2', 'restrictive_team_m1']"
+ProjectE,"['restrictive2_team_m3', 'restrictive2_team_m5', 'restrictive2_team_m2', 'restrictive2_team_m4', 'restrictive2_team_m1']"
+ProjectA,"['reuse_team2_m3', 'reuse_team2_m4', 'reuse_team2_m2', 'reuse_team2_m6', 'reuse_team2_m5', 'reuse_team2_m1']"
+ProjectB,"['reuse_team4_m6', 'reuse_team4_m4', 'reuse_team4_m1', 'reuse_team4_m2', 'reuse_team4_m3', 'reuse_team4_m5']"
+ProjectC,"['reuse_team6_m2', 'reuse_team6_m1', 'reuse_team6_m6', 'reuse_team6_m4', 'reuse_team6_m5', 'reuse_team6_m3']"
+ProjectA,"['reuse_team1_m2', 'reuse_team1_m4', 'reuse_team1_m3', 'reuse_team1_m1', 'reuse_team1_m5']"
+ProjectB,"['reuse_team3_m3', 'reuse_team3_m5', 'reuse_team3_m1', 'reuse_team3_m4', 'reuse_team3_m2']"
+ProjectC,"['reuse_team5_m1', 'reuse_team5_m3', 'reuse_team5_m2', 'reuse_team5_m4', 'reuse_team5_m5']"

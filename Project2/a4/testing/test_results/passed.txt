@@ -1,0 +1,185 @@
+PASSED TEST CASES
+======================================================================
+
+TEST: Team Size Validation
+RESULT: PASSED: All 5 teams have valid sizes (5-6 members)
+   Team size distribution: [6, 6, 6, 6, 5]
+----------------------------------------------------------------------
+
+TEST: Subteam Integrity Test
+RESULT: PASSED: All 3 subteams kept together!
+   ✓ Subteam ABC: studentA, studentB, studentC together
+   ✓ Subteam DE: studentD, studentE together
+   ✓ Subteam FGH: studentF, studentG, studentH together
+   Note: studentM and studentN ended up together (OK, but not required)
+----------------------------------------------------------------------
+
+TEST: Project Preference Validity
+RESULT: PASSED: All 5 teams assigned to valid projects!
+   ✓ ProjectGamma: Valid for all 5 members (team2_member2:#1, team3_member2:#3, team3_member4:#5, team3_member5:#1, team3_member3:#2)
+   ✓ ProjectGamma: Valid for all 5 members (team3_member1:#4, team5_member1:#4, team5_member2:#4, team5_member3:#4, team5_member4:#1)
+   ✓ ProjectDelta: Valid for all 6 members (team4_member2:#1, team4_member4:#1, team4_member5:#1, team4_member3:#1, team4_member1:#1, team4_member6:#1)
+   ✓ ProjectAlpha: Valid for all 6 members (team1_member3:#1, team1_member2:#1, team1_member4:#1, team1_member1:#1, team1_member5:#1, team5_member5:#2)
+   ✓ ProjectBeta: Valid for all 5 members (team2_member1:#1, team2_member3:#2, team2_member6:#2, team2_member5:#1, team2_member4:#2)
+----------------------------------------------------------------------
+
+TEST: Subteam Preference Consistency
+RESULT: PASSED: All consistency checks passed!
+   ✓ Consistent Team 1 (identical rankings): Stayed together
+   ✓ Consistent Team 2 (identical rankings): Stayed together
+   ✓ Inconsistent Rank Team (different rankings): Correctly SPLIT across 2 teams
+   ✓ Inconsistent Project Team (different projects): Correctly SPLIT across 2 teams
+----------------------------------------------------------------------
+
+TEST: Preference Distribution Analysis
+RESULT: PASSED: Good preference distribution!
+Preference Distribution (n=30):
+   #1 choice: 28 students ( 93.3%)
+   #2 choice:  2 students (  6.7%)
+   #3 choice:  0 students (  0.0%)
+   #4 choice:  0 students (  0.0%) ⚠️ undesirable
+   #5 choice:  0 students (  0.0%) ⚠️ undesirable
+
+Metrics:
+   Average rank: 1.07
+   Top 2 choices: 100.0%
+   Undesirable (#4/#5): 0.0%
+----------------------------------------------------------------------
+
+TEST: Project Reuse Test
+RESULT: PASSED: Project reuse appears justified
+Project Usage Analysis (n=8 teams):
+
+REUSED PROJECTS (3 projects):
+   • ProjectA: Used by 2 teams
+   • ProjectB: Used by 2 teams
+   • ProjectC: Used by 2 teams
+
+SINGLE-USE PROJECTS (2 projects):
+   • ProjectD: Used by 1 team
+   • ProjectE: Used by 1 team
+
+REUSE JUSTIFICATION:
+   ✓ JUSTIFIED: 8 teams > 5 projects (reuse necessary)
+   ✓ ProjectD: Team got expected #1 choice
+   ✓ ProjectE: Team got expected #1 choice
+   ✓ ProjectA: Team got expected #1 choice
+   ✓ ProjectB: Team got expected #1 choice
+   ✓ ProjectC: Team got expected #1 choice
+   ✓ ProjectA: Team got expected #1 choice
+   ✓ ProjectB: Team got expected #1 choice
+   ✓ ProjectC: Team got expected #1 choice
+----------------------------------------------------------------------
+
+TEST: Large Subteam Test
+RESULT: PASSED: Large subteams handled appropriately
+Large subteam 7 (7 members) split into 2 team(s):
+   • ProjectAlpha: 6 members (['large7_m3', 'large7_m1', 'large7_m6', 'large7_m4', 'large7_m2', 'large7_m5'])
+   • ProjectEpsilon: 1 members (['large7_m7'])
+   ✓ Large subteam 7 properly split: [6, 1] (will be combined into valid teams)
+
+Large subteam 8 (8 members) split into 2 team(s):
+   • ProjectBeta: 6 members (['large8_m2', 'large8_m1', 'large8_m5', 'large8_m6', 'large8_m3', 'large8_m4'])
+   • ProjectEpsilon: 2 members (['large8_m8', 'large8_m7'])
+   ✓ Large subteam 8 properly split: [6, 2] (will be combined into valid teams)
+
+Normal subteam 5 (5 members):
+   ✓ Stayed together on one team: ProjectGamma
+
+Normal subteam 6 (6 members):
+   ✓ Stayed together on one team: ProjectDelta
+
+OVERALL ANALYSIS:
+   Total teams formed: 6
+   Large subteams handled: 4 split groups
+   Normal subteams preserved: 2/2
+----------------------------------------------------------------------
+
+TEST: No Mutual Preferences Test
+RESULT: PASSED: Non-mutual preferences handled correctly
+✓ One-way preference: A and B treated as individuals (correct behavior)
+✓ Circular non-mutual: A, B, C correctly NOT all together
+✓ Mutual preference: D and E correctly together
+✓ Complex chain: 3 members treated as individuals (correct behavior)
+
+OVERALL ANALYSIS:
+   Total teams formed: 4
+   Non-mutual preferences handled: ✓
+   Mutual preferences preserved: ✓
+----------------------------------------------------------------------
+
+TEST: Incompatible Subteams Test
+RESULT: PASSED: Incompatible subteams handled gracefully
+Incompatible Subteam 1 (ProjectA-E preferences):
+   • ProjectA: 4 members
+
+Incompatible Subteam 2 (ProjectF-J preferences):
+   • ProjectF: 4 members
+
+✓ All teams have valid sizes (5-6 members)
+
+✓ Incompatible subteams stayed separate (as expected)
+----------------------------------------------------------------------
+
+TEST: All Students Want Same Project Test
+RESULT: PASSED: Capacity constraints handled gracefully
+Project Distribution Analysis:
+   • ProjectA: 10 students
+   • ProjectB: 5 students
+   • ProjectC: 5 students
+
+Capacity Analysis:
+   Total students: 20
+   ProjectA assignments: 10
+   ✓ Some students assigned to lower-ranked preferences (capacity constraint handled)
+
+✓ All teams have valid sizes (5-6 members)
+
+Preference Distribution:
+   #1 choice (ProjectA): 10 students
+   #2 choice (ProjectB): 5 students
+   #3 choice (ProjectC): 5 students
+----------------------------------------------------------------------
+
+TEST: Greedy Assignment Order Test
+RESULT: PASSED: Assignment order is optimal
+Team Assignment Analysis:
+   • Team2: ProjectB (rank #1)
+   • Team1: ProjectA (rank #1)
+   • Team3: ProjectC (rank #1)
+
+✓ Assignment is optimal - all teams got #1 or #2 choice
+✓ Greedy assignment order worked well
+----------------------------------------------------------------------
+
+TEST: Tie Breaking Test
+RESULT: PASSED: Tie-breaking handled fairly
+Tie-Breaking Analysis:
+   • Subteam 1: ProjectA
+   • Subteam 2: ProjectA
+   ✓ Both subteams got same project: ProjectA (valid if enough capacity)
+
+✓ Both teams got reasonable assignments
+----------------------------------------------------------------------
+
+TEST: Missing NetID Test
+RESULT: PASSED: Missing NetID handling works correctly
+Missing NetID Handling Analysis:
+   Valid students processed: 10
+   Students found: ['valid_student1', 'valid_student2', 'valid_student3', 'valid_student4', 'valid_student5', 'valid_student6', 'valid_student7', 'valid_student8', 'valid_student9', 'valid_student10']
+   ✓ Correct number of valid students processed
+   ✓ Algorithm completed without crashing
+   ✓ All teams have valid sizes
+----------------------------------------------------------------------
+
+TEST: Invalid Preference Format Test
+RESULT: PASSED: Invalid preference format handling works correctly
+Invalid Preference Format Handling Analysis:
+   Valid students processed: 18
+   Students found: ['invalid_student1', 'invalid_student2', 'invalid_student3', 'valid_student1', 'valid_student2', 'valid_student3', 'valid_student4', 'valid_student5', 'valid_student6', 'valid_student7', 'valid_student8', 'valid_student9', 'valid_student10', 'valid_student11', 'valid_student12', 'valid_student13', 'valid_student14', 'valid_student15']
+   ✓ Correct number of valid students processed
+   ✓ Students with invalid formats handled gracefully
+   ✓ Algorithm completed without crashing
+   ⚠️ Team ProjectB has 3 members (likely students with invalid formats)
+----------------------------------------------------------------------
+
